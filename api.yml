@@ -8,7 +8,7 @@ info:
   license:
     name: Software Architecture, 2019-II
 host: localhost:8081
-basePath: /files
+basePath: /entries
 schemes:
   - http
 consumes:
@@ -28,8 +28,8 @@ paths:
           schema:
             $ref: '#/definitions/FileInput'
       responses:
-        '201':
-          description: Created
+        '200':
+          description: OK
         '400':
           description: Bad Request
           schema:
