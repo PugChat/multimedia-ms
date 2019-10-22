@@ -16,7 +16,7 @@ consumes:
 produces:
   - application/json
 paths:
-  /users:
+  /entries:
     post:
       summary: Creates a new file
       operationId: createFile
@@ -55,7 +55,7 @@ paths:
           schema:
             $ref: '#/definitions/ErrorModel'
 
-  /files/{id}:
+  /entries/{id}:
     get:
       summary: Returns an file with the given id
       operationId: getFileById
