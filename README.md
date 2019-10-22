@@ -1,7 +1,7 @@
-# Golang API Server Sample
+# Golang API Server
 
 ## Abstract
-- Many to Many Web API Server Sample
+- Many to Many Web API Server
 - Web Framework : Gin (https://github.com/gin-gonic/gin)
 - ORM : GORM (https://github.com/jinzhu/gorm)
 
