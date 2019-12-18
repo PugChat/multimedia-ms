@@ -7,3 +7,5 @@ ENV GO111MODULE=on
 RUN go get github.com/pilu/fresh
 
 EXPOSE 8081
+
+CMD ["sh","-c","./wait-for-it.sh db:3306;fresh;"]
